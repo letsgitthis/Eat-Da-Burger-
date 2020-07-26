@@ -1,9 +1,9 @@
-CREATE DATABASE burger_db;
-USE burger_db;
+CREATE DATABASE burger;
+USE burger;
 
 CREATE TABLE burger_list
 (
 	id int NOT NULL AUTO_INCREMENT,
-	name varchar(255) NOT NULL,
+	name varchar(30) NOT NULL,
 	PRIMARY KEY (id)
 );
